@@ -34,10 +34,28 @@ body {
     cursor: pointer;
 }
 
-.banner-unicef {
-    border: 1px solid aqua;
+.unicef {
+    background-color: #fbfbfd;
+   
+    background-position: center;
+    height: 10px;
+    padding-top: 100px;
+    text-align: center;
+    color: #06c;
 }
 
+
+
+.macbook {
+    background-position: center;
+    text-align: center;
+
+       
+}
+.macbook p{
+    font-size: 48px;
+    color: #424245;
+}
 .products-highlights {
     border: 1px solid yellowgreen;
 }
