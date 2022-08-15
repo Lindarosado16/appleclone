@@ -118,7 +118,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
     -ms-flex-negative: 1;
     flex-shrink: 1;
     font-size: x-large;
@@ -126,25 +126,28 @@ body {
     padding-top: 6vh;
     margin: 1.5vh;
     align-items: center;
+    text-align: center;
 
 }
 
 
 
 .iphone-13 h1 {
+    text-align: center;
     color: var(--text-color);
     background-color: var(--background-color);
     padding-top: var(--global-nav-collective-height);
     height: calc(var(--content-height) + var(--global-nav-collective-height));
-    font-size: 40px;
-    line-height: 1.125;
+    font-size: 50px;
+    line-height: 90%;
     font-weight: 600;
     letter-spacing: .002em;
 }
 
 .iphone-13 h3 {
+    text-align: center;
     font-size: 30px;
-    line-height: 1.125;
+    line-height: 90%;
     font-weight: 500;
     letter-spacing: .002em;
 
@@ -159,7 +162,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     -ms-flex-negative: 1;
     flex-shrink: 1;
     font-size: x-large;
@@ -167,10 +170,12 @@ body {
     padding-top: 6vh;
     margin: 1.5vh;
     align-items: center;
+    text-align: center;
 
 }
 .fondo-gift h1 {
-    font-size: 40px;
+    line-height: 90%;
+    font-size: 50px;
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .002em;
@@ -178,6 +183,7 @@ body {
 
 }
 .fondo-gift h3 {
+    line-height: 90%;
     color: #030001;
     background-color: var(--background-color);
     padding-top: var(--global-nav-collective-height);
@@ -188,6 +194,7 @@ body {
     letter-spacing: .002em;
 }
 .link-card {
+    line-height: 90%;
     text-align: center;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-decoration: none;
