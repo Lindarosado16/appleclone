@@ -109,6 +109,7 @@ body {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 }
+
 #Iphone13 {
     background: url(./hero_iphone13_avail__gnqqkzuai6um_largetall.jpeg) rgb(255, 255, 255);
     background-repeat: no-repeat;
@@ -118,7 +119,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 85vh;
+    height: 94vh;
     -ms-flex-negative: 1;
     flex-shrink: 1;
     font-size: x-large;
@@ -139,7 +140,7 @@ body {
     padding-top: var(--global-nav-collective-height);
     height: calc(var(--content-height) + var(--global-nav-collective-height));
     font-size: 50px;
-    line-height: 90%;
+    line-height: 96%;
     font-weight: 600;
     letter-spacing: .002em;
 }
@@ -162,7 +163,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 90vh;
+    height: 94vh;
     -ms-flex-negative: 1;
     flex-shrink: 1;
     font-size: x-large;
@@ -173,6 +174,7 @@ body {
     text-align: center;
 
 }
+
 .fondo-gift h1 {
     line-height: 90%;
     font-size: 50px;
@@ -182,6 +184,7 @@ body {
     display: inline;
 
 }
+
 .fondo-gift h3 {
     line-height: 90%;
     color: #030001;
@@ -193,6 +196,7 @@ body {
     font-weight: 600;
     letter-spacing: .002em;
 }
+
 .link-card {
     line-height: 90%;
     text-align: center;
@@ -287,6 +291,7 @@ body {
 }
 
 .caja-reloj {
+    
     float: left;
     background-repeat: no-repeat;
     background-image: url(./reloj1.jpeg);
