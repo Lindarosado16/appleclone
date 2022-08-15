@@ -68,7 +68,7 @@ body {
 }
 
 .titulo-m {
-    
+
     font-size: 50px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #424245;
@@ -102,75 +102,99 @@ body {
 }
 
 .link-13 {
+    background-position: center;
     text-align: center;
     text-decoration: none;
     color: #06c;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 }
-
-.fondo-13 {
-    background-position: center;
-    background-size: 43%;
-    margin: 0%;
-    background-image: url("./verde\ iphone.jpg");
-    width: 100%;
-    height: 100%;
-    padding: 20%;
+#Iphone13 {
+    background: url(./hero_iphone13_avail__gnqqkzuai6um_largetall.jpeg) rgb(255, 255, 255);
     background-repeat: no-repeat;
-    float: right;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: bottom;
     display: flex;
-    flex-wrap: wrap;
-}
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    font-size: x-large;
+    padding-left: 1vw;
+    padding-top: 6vh;
+    margin: 1.5vh;
+    align-items: center;
 
-.iphone13 h2 {
-    text-align: center;
-    background-position: center;
-    font-size: 56px;
-    z-index: 3;
-    letter-spacing: 0em;
-
-
-}
-
-.iphone13 p {
-    text-align: center;
-    background-position: center;
-    font-size: 28px;
-    z-index: 3;
-    
 }
 
 
 
-.gift-card{
-    float: right;
-    text-align: center;
-    background-position: center;
+.iphone-13 h1 {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    font-size: 40px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
 }
-.fondo-gift{
-    background-image: url("./gitCar\ mackbook.jpeg");
-    display: flex;
-    flex-wrap: wrap;
-    background-size: cover;
-    background-position: center;
-    padding-top: 47px;
-    height: 580px;
+
+.iphone-13 h3 {
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 500;
+    letter-spacing: .002em;
+
+}
+
+.fondo-gift {
+    background: url(./gitCar\ mackbook.jpeg);
     background-repeat: no-repeat;
-    
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: bottom;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    font-size: x-large;
+    padding-left: 1vw;
+    padding-top: 6vh;
+    margin: 1.5vh;
+    align-items: center;
+
 }
-.gift-card h2{
-    font-size: 65px;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-style: normal;
+.fondo-gift h1 {
+    font-size: 40px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    display: inline;
+
+}
+.fondo-gift h3 {
+    color: #030001;
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    font-size: 20px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+}
+.link-card {
     text-align: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: #06c;
 }
-.contenedor1{
+
+.contenedor1 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -178,7 +202,8 @@ body {
     margin: unset;
     margin: none;
 }
-.smallboxes{
+
+.smallboxes {
     float: left;
     height: 624px;
     flex-grow: 1;
@@ -186,7 +211,8 @@ body {
     min-width: 350px;
     flex-basis: 0%;
 }
-.caja-iphone{
+
+.caja-iphone {
     float: left;
     background-image: url(./frenteIphone.jpeg);
     text-align: center;
@@ -194,18 +220,20 @@ body {
     background-position: center;
     background-color: #fbfbfd;
 }
-.smallboxesc.caja-iphone p{
+
+.smallboxesc.caja-iphone p {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 56px;
     font-style: normal;
 }
-.smallboxes.caja-iphone h1{
+
+.smallboxes.caja-iphone h1 {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 35px;
     font-style: normal;
 }
 
-.caja-macbook{
+.caja-macbook {
     text-align: center;
     color: #fbfbfd;
     float: left;
@@ -215,14 +243,15 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-.caja-macbook p{
+
+.caja-macbook p {
     text-align: center;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     font-style: normal;
 }
 
-.link-caja{
+.link-caja {
     text-align: center;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-decoration: none;
@@ -240,6 +269,7 @@ body {
     margin: unset;
     margin: none;
 }
+
 .smallboxes {
     float: left;
     height: 624px;
@@ -248,6 +278,7 @@ body {
     min-width: 350px;
     flex-basis: 0%;
 }
+
 .caja-reloj {
     float: left;
     background-repeat: no-repeat;
@@ -276,6 +307,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 .link-caja {
     text-align: center;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
