@@ -102,6 +102,7 @@ body {
 }
 
 .link-13 {
+    text-align: center;
     text-decoration: none;
     color: #06c;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -110,22 +111,34 @@ body {
 
 .fondo-13 {
     background-position: center;
-    height: 670px;
+    background-size: 43%;
+    margin: 0%;
+    background-image: url("./verde\ iphone.jpg");
+    width: 100%;
+    height: 100%;
+    padding: 20%;
     background-repeat: no-repeat;
     float: right;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .iphone13 h2 {
     text-align: center;
     background-position: center;
     font-size: 56px;
+    z-index: 3;
+    letter-spacing: 0em;
+
 
 }
 
-.iphone13 h3 {
+.iphone13 p {
     text-align: center;
     background-position: center;
     font-size: 28px;
+    z-index: 3;
+    
 }
 
 
@@ -136,6 +149,7 @@ body {
     background-position: center;
 }
 .fondo-gift{
+    background-image: url("./gitCar\ mackbook.jpeg");
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
@@ -146,6 +160,7 @@ body {
     
 }
 .gift-card h2{
+    font-size: 65px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-style: normal;
     text-align: center;
@@ -155,35 +170,17 @@ body {
     height: 100%;
     z-index: 3;
 }
-.gift-card h3{
-    text-align: center;
-    font-size: 19px;
-    line-height: 1.21053;
-    font-weight: 400;
-    letter-spacing: 0em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
-.link-gift{
-    text-align: center;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    text-decoration: none;
-    color: #06c;
-}
-
-.contenedor1,
-.contenedor2,
-.contenedor3{
+.contenedor1{
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
-    height: 900px;
-    margin:unset;
+    width: 100%;
+    height: 100%;
+    margin: unset;
+    margin: none;
 }
 .smallboxes{
     float: left;
     height: 624px;
-    background-color: blue;
     flex-grow: 1;
     margin: 15px 15px;
     min-width: 350px;
@@ -208,17 +205,139 @@ body {
     font-style: normal;
 }
 
-
-
 .caja-macbook{
+    text-align: center;
     color: #fbfbfd;
     float: left;
-    background-image: url(./semiMACBOOK.jpeg);
-    background-size: cover;
+    background-color: #000000;
+    background-image: url(./a1\ macbook.jpeg);
+    background-size: 70%;
+    background-repeat: no-repeat;
     background-position: center;
+}
+.caja-macbook p{
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-style: normal;
 }
 
 .link-caja{
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: #06c;
+}
+
+
+
+
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: unset;
+    margin: none;
+}
+.smallboxes {
+    float: left;
+    height: 624px;
+    flex-grow: 1;
+    margin: 15px 15px;
+    min-width: 350px;
+    flex-basis: 0%;
+}
+.caja-reloj {
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(./reloj1.jpeg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #fbfbfd;
+}
+
+
+.contenedor2 p {
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.caja-ipad {
+    text-align: center;
+    color: #fbfbfd;
+    float: left;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-image: url(./ipadd.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.link-caja {
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: #06c;
+}
+
+
+.contenedor3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: unset;
+    margin: none;
+}
+
+.smallboxes {
+    float: left;
+    height: 624px;
+    flex-grow: 1;
+    margin: 15px 15px;
+    min-width: 350px;
+    flex-basis: 0%;
+}
+
+.caja-tarjeta {
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(./tarjeta\ completa.jpeg);
+    text-align: center;
+    background-size: 60%;
+    background-position: center;
+    background-color: #fbfbfd;
+}
+
+.contenedor3 p {
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contenedor h1 {
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+}
+
+.caja-airpods {
+    text-align: center;
+    color: #fbfbfd;
+    float: left;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-image: url(./AirpodsFONDO.jpg);
+    background-size: 60%;
+    background-position: center;
+}
+
+.link-caja {
     text-align: center;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-decoration: none;
